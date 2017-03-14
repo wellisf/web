@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+img#escola{
+    border: 1px solid #000000;
+    float: center;
+    width: auto;
+    height:auto;
+	position: absolute;
+	left: 75px;
+	top: 67px;
+}
+
+h2{
+	color: #f3eda3;
+	text-align: left;
+	text-indent: 95px;
+}
+
+p{
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 60px;
+	color: #f3eda3;
+}
