@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> IMC </title>
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<script type="text/javascript" src="_javascript/imc.js"></script>
+</head>
+<body>
+	<div id="main">
+	
+		<img src="_image/IMC-600x382.png" id="imgMain">
+		
+		<form id="formImc">
+			<fieldset >
+				<legend>	Calculation of IMC 	</legend>
+				
+				<label for ="kilos">  Kilos (Kg) :   </label>
+				<input type="number" name="kg" size="15550" min=4 max="330" value="75"/>
+				
+				<label for ="centimetros" > <span style="padding-left:25px"> Centimetros (Cm) : </span> </label>
+				<input type="number" name="cm" size="5"  min=60 max="250" value="180"/>
+				
+				<label for ="imc" > <span style="padding-left:25px">  IMC : </span> </label>
+				<input type="text" name="imc" disabled="disabled" size="2">
+								
+				<label for="grau"> <span style="padding-left:25px">  Grau : </span> </label>
+				<input type="text" name="grau" disabled="disable" size="10"> 
+				
+				<br><br>
+			
+				<a hef="#" onclick="imc();" id="boton"> Calcular </a>
+				
+			</fieldset>		
+		</form>
+
+	</div>
+</body>
+</html>
